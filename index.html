@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <titler>Login</title>
+  <title>Login</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -11,9 +11,13 @@
     <form>
       <input type="text" placeholder="Seu nome" required>
       <input type="password" placeholder="Senha" required>
+      <label for="salvarSenha">
+        <input type="checkbox" id="salvarSenha" name="salvarSenha">
+        Salvar Senha
+      </label>
       <button type="submit">Entrar</button>
     </form>
-    <p>Crie uma conta agora! <a href="cadastro2.html">Cadastre-se</a></p>
+    <button class="register-button" onclick="location.href='registro2.html'">Registre-se</button>
   </div>
 </body>
 </html>
